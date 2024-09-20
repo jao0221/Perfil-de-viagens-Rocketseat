@@ -1,0 +1,29 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+nav ul li{
+  padding: 4px;
+  margin: 4px 16px;
+}
+
+nav ul li:last-child img{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+nav ul li:last-child{
+  padding: 4px 0px 4px 4px;
+  margin: 4px 0px 4px 16px;
+}
