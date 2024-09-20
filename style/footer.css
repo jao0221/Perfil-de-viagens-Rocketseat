@@ -1,7 +1,7 @@
 footer{
   display: flex;
   justify-content: space-between;
-  font: var(--text-sm);
+  font: 14px/150%;
   padding-bottom: 25px;
 }
 footer ul{
