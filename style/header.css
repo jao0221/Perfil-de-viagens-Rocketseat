@@ -1,0 +1,38 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+#about img{
+width: 196px;
+height: 196px;
+
+}
+#about{
+  display: flex;
+  max-width: 592px;
+  gap: 32px;
+
+}
+#about h1{
+  color: var(--text-color-primary);
+}
+#about div span{
+  font-size: 14px;
+
+}
+#info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+}
+
+#info ul li{
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
