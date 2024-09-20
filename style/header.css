@@ -12,15 +12,17 @@ height: 196px;
 }
 #about{
   display: flex;
-  max-width: 592px;
   gap: 32px;
-
 }
+#profile{
+  width: 384px;
+}
+
 #about h1{
   color: var(--text-color-primary);
 }
 #about div span{
-  font-size: 14px;
+  font: var(--text-sm);
 
 }
 #info ul {
@@ -32,7 +34,8 @@ height: 196px;
 
 #info ul li{
   list-style: none;
-  font-size: 14px;
+  font: var(--text-sm);
   display: flex;
   align-items: center;
+  gap: 8px;
 }

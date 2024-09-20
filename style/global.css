@@ -16,7 +16,7 @@
   --text-color-secondary: #6C6C6C;
   --text-lg: bold 32px 125% var(--font-family);
   --text-md: 400 16px 150% var(--font-family);
-  --text-sm: 400 14px var(--font-family);
+  --text-sm: 400 14px 170% var(--font-family);
 
 }
 body{
@@ -24,6 +24,7 @@ body{
   font-weight: 400;
   color: var(--text-color-secondary);
   background-color: var(--bg-color);
+  
 
 }
 
